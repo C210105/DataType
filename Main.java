@@ -9,11 +9,11 @@ public class Main {
 
         // キーボードからの入力（width/横の長さ）
         System.out.print("width: ");
-        width = sc.nextInt();
+        width = sc.nextDouble(); //キーボードからの入力変数を変更する
 
         // キーボードからの入力（height/縦の長さ）
         System.out.print("height: ");
-        height = sc.nextInt();
+        height = sc.nextDouble(); //キーボードからの入力変数を変更する
 
         // 周囲の長さの計算・表示
         System.out.print("circumference: ");
