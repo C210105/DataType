@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         // 変数宣言・初期化
-        int width, height;
+        long width, height; //long変数を変更する
         Scanner sc = new Scanner(System.in);
 
         // キーボードからの入力（width/横の長さ）
