@@ -4,16 +4,16 @@ public class Main {
 
     public static void main(String[] args) {
         // 変数宣言・初期化
-        String width, height;
+        int width, height;
         Scanner sc = new Scanner(System.in);
 
         // キーボードからの入力（width/横の長さ）
         System.out.print("width: ");
-        width = sc.next();
+        width = sc.nextInt();
 
         // キーボードからの入力（height/縦の長さ）
         System.out.print("height: ");
-        height = sc.next();
+        height = sc.nextInt();
 
         // 周囲の長さの計算・表示
         System.out.print("circumference: ");
