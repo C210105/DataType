@@ -18,6 +18,7 @@ public class Main {
         // 周囲の長さの計算・表示
         System.out.print("circumference: ");
         System.out.println(width + width + height + height);
+        System.out.println("area: " + (width * height)); //areaを追加する
 
         // 入力の終了
         sc.close();
